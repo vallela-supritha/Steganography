@@ -1,7 +1,4 @@
 # Steganography
-Here's a clean and professional `README.md` file for your **LSB Steganography Web App using Streamlit** project:
-
----
 
 ````markdown
 # 🔐 LSB Steganography Web App
@@ -10,18 +7,18 @@ A simple and interactive web application built using **Streamlit** that allows y
 
 ## 🚀 Features
 
-- 📥 **Embed Messages:** Hide secret text inside an image using LSB technique.
-- 📤 **Extract Messages:** Retrieve the hidden message from a stego image.
+- 📥 Embed Messages:Hide secret text inside an image using LSB technique.
+- 📤 Extract Messages:Retrieve the hidden message from a stego image.
 - 🖼️ Supports PNG, JPG, and JPEG formats.
 - 💡 Built with an intuitive and responsive user interface using **Streamlit**.
 - 🔐 Uses 2-bit encoding per byte for efficient data embedding.
 
 ## 🧠 How It Works
 
-- The app uses **2 bits of each pixel channel** (R, G, B) to store parts of the secret message.
+- The app uses 2 bits of each pixel channel (R, G, B) to store parts of the secret message.
 - The message is prefixed with its length followed by a special delimiter `%` for secure retrieval.
-- **Encoding:** Converts text characters into binary and embeds them in the image pixel data.
-- **Decoding:** Reconstructs the text from the modified image using the embedded length.
+- Encoding: Converts text characters into binary and embeds them in the image pixel data.
+- Decoding: Reconstructs the text from the modified image using the embedded length.
 
 ## 📦 Tech Stack
 
@@ -33,41 +30,6 @@ A simple and interactive web application built using **Streamlit** that allows y
 
 ````
 
-## 🛠️ Setup & Run Locally
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/lsb-steganography-app.git
-   cd lsb-steganography-app
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit app:**
-
-   ```bash
-   streamlit run app.py
-   ```
-
-## ✅ Requirements
-
-* Python 3.7+
-* Streamlit
-* NumPy
-* OpenCV
-* Pillow
-
-> Install dependencies using:
->
-> ```bash
-> pip install streamlit numpy opencv-python pillow
-> ```
-
 ## 🏁 Future Improvements
 
 * Support for larger messages with compression.
@@ -76,14 +38,6 @@ A simple and interactive web application built using **Streamlit** that allows y
 
 ## 🙋‍♀️ Author
 
-**Supritha Vallella**
-🔗 [Portfolio](https://supritha735.netlify.app) | 🌐 [LinkedIn](https://www.linkedin.com) | 🐍 [HackerRank](https://www.hackerrank.com)
+Supritha Vallella
+🔗 [Portfolio](https://supritha735.netlify.app) | 🌐 [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/supritha-vallela-b8b4322a2/) | 🐍 [HackerRank]([https://www.hackerrank.com](https://www.hackerrank.com/profile/supritha_vallela)
 
----
-
-> 📢 *For educational purposes only. Avoid using this for sensitive information in production.*
-
-```
-
-Would you like a `requirements.txt` file or help with GitHub setup too?
-```
